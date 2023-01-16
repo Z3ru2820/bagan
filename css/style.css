@@ -766,7 +766,7 @@ body{
 	}
 	.m-tk{
 		width: 300px;
-		height: 350px;
+		height: 400px;
 		margin: 0 auto;
 	}
 	.m-p{
@@ -822,7 +822,7 @@ body{
 	}
 	.m-tk{
 		width: 250px;
-		height: 350px;
+		height: 450px;
 	}
 }
 @media (max-width:415px){
@@ -830,13 +830,17 @@ body{
 		width: 300px;
 		height: auto;
 	}
+	.bd-p p{
+		font-size:35px;
+		padding: 10px;
+	}
 }
 @media (max-width:385px){
 	.history .hd .h p{
 		font-size: 13.5px;
 	}
 }
-@media (max-width:360px) {
+@media (max-width:365px) {
 	.bd-p p{
 		font-size:30px;
 		padding: 10px;
