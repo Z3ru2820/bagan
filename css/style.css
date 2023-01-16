@@ -661,13 +661,27 @@ body{
 	border-radius: 10px;
 	background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.2));
 }
-@media (max-width:900px) {
+@media (max-width:1550px) {
+	.bd-p1{
+		margin-top: 200px;
+	}
 	.b{
 		display: flex;
 		justify-content:center;
 		align-items: center;
 		flex-direction: column;
 	}
+	.b-p1{
+		width: 80%;
+		height: auto;
+		margin:0 0 50px;
+	}
+	.b-p2{
+		width: 80%;
+		margin:0 auto;
+	}
+}
+@media (max-width:900px) {
 	.b-p1{
 		width: 80%;
 		height: auto;
