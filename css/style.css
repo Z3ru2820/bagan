@@ -812,6 +812,10 @@ body{
 	.bd-p1 p{
 		font-size: 20px;
 	}
+	.bd-p p{
+		font-size:35px;
+		padding: 10px;
+	}
 }
 @media (max-width:480px){
 	.history .hd .h h1{
@@ -829,10 +833,6 @@ body{
 	.bd-p1{
 		width: 300px;
 		height: auto;
-	}
-	.bd-p p{
-		font-size:35px;
-		padding: 10px;
 	}
 }
 @media (max-width:385px){
