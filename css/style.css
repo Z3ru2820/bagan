@@ -158,13 +158,12 @@ body{
 	position: absolute;
 	top:350px;
 	right: 70px;
-
 	z-index: 1;
 }
 .bd-p1 p{
 	text-align: justify;
 	font-size: 23px;
-	opacity: 0;
+	opacity: 1;
 
 	transition: all 0.5s;
 }
@@ -661,50 +660,6 @@ body{
 	border-radius: 10px;
 	background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.2));
 }
-@media (max-width:1550px) {
-	.bd-p1{
-		margin-top: 200px;
-	}
-	.b{
-		display: flex;
-		justify-content:center;
-		align-items: center;
-		flex-direction: column;
-	}
-	.b-p1{
-		width: 80%;
-		height: auto;
-		margin:0 0 50px;
-	}
-	.b-p2{
-		width: 80%;
-		margin:0 auto;
-	}
-}
-@media (max-width:900px) {
-	.b-p1{
-		width: 80%;
-		height: auto;
-		margin:0 0 50px;
-	}
-	.b-p2{
-		width: 80%;
-		margin:0;
-	}
-	.b-pf{
-		display: flex;
-		flex-direction: column;
-	}
-	.m-tk{
-		width: 400px;
-		height: 350px;
-		margin: 0 auto;
-	}
-	.m-p{
-		width: 100%;
-	}
-}
-
 .footer{
 	width: 100%;
 	height: 100px;
@@ -731,12 +686,32 @@ body{
 	justify-content: right;
 	align-items: center;
 }
+@media (max-width:1550px) {
+	.bd-p1{
+		margin-top: 200px;
+	}
+	.b{
+		display: flex;
+		justify-content:center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.b-p1{
+		width: 80%;
+		height: auto;
+		margin:0 0 50px;
+	}
+	.b-p2{
+		width: 80%;
+		margin:0 auto;
+	}
+}
 @media (max-width:1300px){
 	.bd-p{
 		transform: translateX(-50px) translateY(-120px);
 	}
 	.bd-p p{
-		font-size: 40px;
+		font-size: 70px;
 	}
 	.bd-p1{
 		transform: translateX(-220px);
@@ -752,7 +727,6 @@ body{
 		visibility: hidden;
 	}
 	.bd-p{
-		font-size: 50px;
 		transform: translateY(-120px);
 	}
 	.bd-p1{
@@ -770,6 +744,44 @@ body{
 	.m-tk{
 		width: 90%;
 	}
+	.b-p1{
+		width: 80%;
+		height: auto;
+		margin:0 0 50px;
+	}
+	.b-p2{
+		width: 80%;
+		margin:0;
+	}
+	.b-pf{
+		display: flex;
+		flex-direction: column;
+	}
+	.m-tk{
+		width: 400px;
+		height: 350px;
+		margin: 0 auto;
+	}
+	.m-p{
+		width: 100%;
+	}
+}
+@media (max-width:660px){
+	.bd-p1{
+		width: 450px;
+		height: auto;
+	}
+	.sdls h1{
+		font-size: 45px;
+	}
+	.sdls p{
+		font-size: 18px;
+	}
+}
+@media (max-width:580px){
+	.bd-p p{
+		font-size: 50px;
+	}
 }
 @media (max-width:500px){
 	.hd .h h1{
@@ -779,8 +791,7 @@ body{
 		font-size: 15px;
 	}
 	.bd-p1{
-		width: 450px;
-		transform: translateX(50px) translateY(120px);
+		transform: translateX(50px);
 	}
 	.bd-p1 p{
 		font-size: 20px;
